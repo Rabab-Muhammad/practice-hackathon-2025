@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'My Book - Physical AI & Humanoid Robotics',
+  tagline: 'Exploring the future of embodied intelligence',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -41,6 +41,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -75,17 +76,17 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'My Book',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'My Book Logo',
+        src: 'img/docusaurus.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'chapterSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Chapter',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -102,8 +103,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Chapter',
+              to: '/docs/chapter-intro',
             },
           ],
         },
