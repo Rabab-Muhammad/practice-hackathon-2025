@@ -19,7 +19,7 @@ function HomepageHeader() {
           Welcome to a comprehensive journey into the world of **Physical AI and Humanoid Robotics**. This collection of chapters provides an in-depth exploration of the foundational concepts, practical applications, and future trends in embodied intelligence.
         </p>
         <div className="text--center">
-          <img src="/img/undraw_docusaurus_react.svg" alt="Humanoid Robot" className={styles.heroImage} />
+          <img src={`${siteConfig.baseUrl}img/undraw_docusaurus_react.svg`} alt="Humanoid Robot" className={styles.heroImage} />
         </div>
         <div className={clsx('margin-top--lg', styles.buttons)}>
           <Link
